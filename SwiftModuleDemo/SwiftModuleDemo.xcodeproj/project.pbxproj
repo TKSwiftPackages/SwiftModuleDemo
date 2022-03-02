@@ -13,6 +13,7 @@
 		4E1356C227CE0C4000CEC50B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E1356C127CE0C4000CEC50B /* Preview Assets.xcassets */; };
 		4E1356CC27CE0C9100CEC50B /* Speaker in Frameworks */ = {isa = PBXBuildFile; productRef = 4E1356CB27CE0C9100CEC50B /* Speaker */; };
 		4EB9F09D27CE3C9B00B6E231 /* Dog in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB9F09C27CE3C9B00B6E231 /* Dog */; };
+		4EB9F13227CF6FF500B6E231 /* Basket in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB9F13127CF6FF500B6E231 /* Basket */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4E1356BE27CE0C4000CEC50B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E1356C127CE0C4000CEC50B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E1356C927CE0C8700CEC50B /* Speaker */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Speaker; path = ../Speaker; sourceTree = "<group>"; };
+		4EB9F13027CF6FD700B6E231 /* Basket */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Basket; path = ../Basket; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +32,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E1356CC27CE0C9100CEC50B /* Speaker in Frameworks */,
+				4EB9F13227CF6FF500B6E231 /* Basket in Frameworks */,
 				4EB9F09D27CE3C9B00B6E231 /* Dog in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				4E1356C927CE0C8700CEC50B /* Speaker */,
+				4EB9F13027CF6FD700B6E231 /* Basket */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -108,6 +112,7 @@
 			packageProductDependencies = (
 				4E1356CB27CE0C9100CEC50B /* Speaker */,
 				4EB9F09C27CE3C9B00B6E231 /* Dog */,
+				4EB9F13127CF6FF500B6E231 /* Basket */,
 			);
 			productName = SwiftModuleDemo;
 			productReference = 4E1356B727CE0C4000CEC50B /* SwiftModuleDemo.app */;
@@ -391,6 +396,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4EB9F09B27CE3C9B00B6E231 /* XCRemoteSwiftPackageReference "TKSPDog" */;
 			productName = Dog;
+		};
+		4EB9F13127CF6FF500B6E231 /* Basket */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Basket;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
