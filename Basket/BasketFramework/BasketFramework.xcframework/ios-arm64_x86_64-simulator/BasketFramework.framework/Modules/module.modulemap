@@ -1,0 +1,11 @@
+framework module BasketFramework {
+  umbrella header "BasketFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module BasketFramework.Swift {
+    header "BasketFramework-Swift.h"
+    requires objc
+}
