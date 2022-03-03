@@ -14,6 +14,7 @@
 		4E1356CC27CE0C9100CEC50B /* Speaker in Frameworks */ = {isa = PBXBuildFile; productRef = 4E1356CB27CE0C9100CEC50B /* Speaker */; };
 		4EB9F09D27CE3C9B00B6E231 /* Dog in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB9F09C27CE3C9B00B6E231 /* Dog */; };
 		4EB9F13227CF6FF500B6E231 /* Basket in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB9F13127CF6FF500B6E231 /* Basket */; };
+		4EB9F18027D0D14D00B6E231 /* Transverter in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB9F17F27D0D14D00B6E231 /* Transverter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4E1356C127CE0C4000CEC50B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E1356C927CE0C8700CEC50B /* Speaker */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Speaker; path = ../Speaker; sourceTree = "<group>"; };
 		4EB9F13027CF6FD700B6E231 /* Basket */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Basket; path = ../Basket; sourceTree = "<group>"; };
+		4EB9F17E27D0D11D00B6E231 /* Transverter */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Transverter; path = ../Transverter; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +36,7 @@
 				4E1356CC27CE0C9100CEC50B /* Speaker in Frameworks */,
 				4EB9F13227CF6FF500B6E231 /* Basket in Frameworks */,
 				4EB9F09D27CE3C9B00B6E231 /* Dog in Frameworks */,
+				4EB9F18027D0D14D00B6E231 /* Transverter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +85,7 @@
 			children = (
 				4E1356C927CE0C8700CEC50B /* Speaker */,
 				4EB9F13027CF6FD700B6E231 /* Basket */,
+				4EB9F17E27D0D11D00B6E231 /* Transverter */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -113,6 +117,7 @@
 				4E1356CB27CE0C9100CEC50B /* Speaker */,
 				4EB9F09C27CE3C9B00B6E231 /* Dog */,
 				4EB9F13127CF6FF500B6E231 /* Basket */,
+				4EB9F17F27D0D14D00B6E231 /* Transverter */,
 			);
 			productName = SwiftModuleDemo;
 			productReference = 4E1356B727CE0C4000CEC50B /* SwiftModuleDemo.app */;
@@ -400,6 +405,10 @@
 		4EB9F13127CF6FF500B6E231 /* Basket */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Basket;
+		};
+		4EB9F17F27D0D14D00B6E231 /* Transverter */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Transverter;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

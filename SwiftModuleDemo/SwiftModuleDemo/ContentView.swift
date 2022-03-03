@@ -11,6 +11,7 @@ import Dog
 import Basket
 import BasketFramework
 import BasketLibrary
+import TransverterFramework
 
 extension View {
     public func space(_ width: CGFloat? = nil, _ color: Color = Color.blue) -> some View {
@@ -60,7 +61,19 @@ struct ContentView: View {
                 Button(action: {
                     msg = BasketLibraryIntro.intro()
                 }) {
-                    Text("Bang!Fx!").space(150)
+                    Text("Bang!lib!").space(150)
+                }
+            }
+            HStack {
+                Button(action: {
+                    msg = TransverterFrameworkIntro.intro()
+                }) {
+                    Text("Change!Fx!").space(150)
+                }
+                Button(action: {
+                    msg = "Impracticable"
+                }) {
+                    Text("Change!Lib!").space(150)
                 }
             }
         }

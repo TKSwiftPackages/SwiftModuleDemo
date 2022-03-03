@@ -1,0 +1,6 @@
+framework module TransverterFramework {
+  umbrella header "TransverterFramework.h"
+
+  export *
+  module * { export * }
+}
