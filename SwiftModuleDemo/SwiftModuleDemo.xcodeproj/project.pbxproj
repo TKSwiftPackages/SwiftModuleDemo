@@ -15,6 +15,7 @@
 		4EB9F09D27CE3C9B00B6E231 /* Dog in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB9F09C27CE3C9B00B6E231 /* Dog */; };
 		4EB9F13227CF6FF500B6E231 /* Basket in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB9F13127CF6FF500B6E231 /* Basket */; };
 		4EB9F18027D0D14D00B6E231 /* Transverter in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB9F17F27D0D14D00B6E231 /* Transverter */; };
+		4EB9F1BB27D1B62C00B6E231 /* Visitor in Frameworks */ = {isa = PBXBuildFile; productRef = 4EB9F1BA27D1B62C00B6E231 /* Visitor */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4E1356C927CE0C8700CEC50B /* Speaker */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Speaker; path = ../Speaker; sourceTree = "<group>"; };
 		4EB9F13027CF6FD700B6E231 /* Basket */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Basket; path = ../Basket; sourceTree = "<group>"; };
 		4EB9F17E27D0D11D00B6E231 /* Transverter */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Transverter; path = ../Transverter; sourceTree = "<group>"; };
+		4EB9F1B927D1B52400B6E231 /* Visitor */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Visitor; path = ../Visitor; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +36,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E1356CC27CE0C9100CEC50B /* Speaker in Frameworks */,
+				4EB9F1BB27D1B62C00B6E231 /* Visitor in Frameworks */,
 				4EB9F13227CF6FF500B6E231 /* Basket in Frameworks */,
 				4EB9F09D27CE3C9B00B6E231 /* Dog in Frameworks */,
 				4EB9F18027D0D14D00B6E231 /* Transverter in Frameworks */,
@@ -86,6 +89,7 @@
 				4E1356C927CE0C8700CEC50B /* Speaker */,
 				4EB9F13027CF6FD700B6E231 /* Basket */,
 				4EB9F17E27D0D11D00B6E231 /* Transverter */,
+				4EB9F1B927D1B52400B6E231 /* Visitor */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -118,6 +122,7 @@
 				4EB9F09C27CE3C9B00B6E231 /* Dog */,
 				4EB9F13127CF6FF500B6E231 /* Basket */,
 				4EB9F17F27D0D14D00B6E231 /* Transverter */,
+				4EB9F1BA27D1B62C00B6E231 /* Visitor */,
 			);
 			productName = SwiftModuleDemo;
 			productReference = 4E1356B727CE0C4000CEC50B /* SwiftModuleDemo.app */;
@@ -409,6 +414,10 @@
 		4EB9F17F27D0D14D00B6E231 /* Transverter */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Transverter;
+		};
+		4EB9F1BA27D1B62C00B6E231 /* Visitor */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Visitor;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

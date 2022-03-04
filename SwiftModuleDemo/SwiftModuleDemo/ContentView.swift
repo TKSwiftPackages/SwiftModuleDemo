@@ -12,6 +12,7 @@ import Basket
 import BasketFramework
 import BasketLibrary
 import TransverterFramework
+import Visitor
 
 extension View {
     public func space(_ width: CGFloat? = nil, _ color: Color = Color.blue) -> some View {
@@ -75,6 +76,11 @@ struct ContentView: View {
                 }) {
                     Text("Change!Lib!").space(150)
                 }
+            }
+            Button(action: {
+                msg = Visitor.intro()
+            }){
+                Text("Deep!").space(300)
             }
         }
     }
