@@ -11,4 +11,10 @@ public struct Visitor {
         }
         return "Vister" + " : " + "UUID-" + uuid.prefix(7)
     }
+    
+    public static func product() -> String {
+        var product = ""
+        print(SKProduct(), to: &product)
+        return "Vister" + " : " + product.prefix(26).suffix(14)
+    }
 }

@@ -77,10 +77,17 @@ struct ContentView: View {
                     Text("Change!Lib!").space(150)
                 }
             }
-            Button(action: {
-                msg = Visitor.intro()
-            }){
-                Text("Deep!").space(300)
+            HStack {
+                Button(action: {
+                    msg = Visitor.intro()
+                }){
+                    Text("Who!").space(150)
+                }
+                Button(action: {
+                    msg = Visitor.product()
+                }){
+                    Text("Product!").space(150)
+                }
             }
         }
     }
